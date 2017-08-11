@@ -23,7 +23,7 @@ services:
       context: ./images/php-docker
       dockerfile: Dockerfile
     volumes: 
-      - ./apps:/mnt/apps
+      - ./app:/mnt/apps
 
   # MySQL 5.7: https://hub.docker.com/_/mysql/
   database: 
