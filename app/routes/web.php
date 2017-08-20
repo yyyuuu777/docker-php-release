@@ -27,3 +27,6 @@ Route::get('/test',function(Request $request) {
  * @var [type]
  */
 Route::any('/signup','UserController@user_token');
+Route::any('/test',function(Request $request){
+    echo "Hello";
+});
